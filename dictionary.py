@@ -103,6 +103,23 @@ else:
 
 
 
+#Q-10
+list = [10,20,30]
+tuple = (10,20,30)
+set = {10,20,30}
+dict = {"a":"10", "b": "20", "c": 30}
+val = 20
+
+if val in list and val in tuple:
+    if "b" in dict and val not in set:
+        print("Path A")
+    else:
+        print("Path B")
+else:
+    print("Path C")
+
+
+
 #Q-11
 data = {"a":10, "b":20, "a": 30}
 print(data)
